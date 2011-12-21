@@ -4,9 +4,9 @@ echo
 echo "Generando la web:::"
 echo
 
-FILELIST_ES="index_es.html bio_es.html docencia_es.html investigacion_es.html publicaciones_es.html personal_es.html"
-FILELIST_EN="index_en.html bio_en.html docencia_en.html investigacion_en.html publicaciones_en.html personal_en.html"
-FILELIST_FR="index_fr.html bio_fr.html docencia_fr.html investigacion_fr.html publicaciones_fr.html personal_fr.html"
+FILELIST_ES="index_es.html docencia_es.html investigacion_es.html publicaciones_es.html personal_es.html"
+FILELIST_EN="index_en.html docencia_en.html investigacion_en.html publicaciones_en.html personal_en.html"
+FILELIST_FR="index_fr.html docencia_fr.html investigacion_fr.html publicaciones_fr.html personal_fr.html"
 
 # ARCHIVOS EN ESPAÑOL
 for file in $FILELIST_ES
