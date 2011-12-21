@@ -50,4 +50,7 @@ do
 
 done
 
+rm *~
+rm src/*~
+
 echo "Finalizado"
