@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<script languaje="JavaScript">	
+	var theImages1 = new Array()
+	
+	theImages1[0] = 'images/foto1.png'
+	theImages1[1] = 'images/foto2.png'
+	theImages1[2] = 'images/foto3.png'
+	theImages1[3] = 'images/foto4.png'
+	theImages1[4] = 'images/foto5.png'
+	theImages1[5] = 'images/foto6.png'
+	
+	var j1 = 0
+	var p1 = theImages1.length;
+	var preBuffer1 = new Array()
+	for (i1 = 0; i1 < p1; i1++){
+	   preBuffer1[i1] = new Image()
+	   preBuffer1[i1].src = theImages1[i1]
+	}
+	var whichImage1 = Math.round(Math.random()*(p1-1));
+	function showImage1(){
+	document.write('<img src="'+theImages1[whichImage1]+'" alt="" width="250" height="230" />');
+	}
+	</script>
+
+	<script languaje="JavaScript">	
+	var theImages2 = new Array()
+	
+	theImages2[0] = 'images/foto7.png'
+	theImages2[1] = 'images/foto8.png'
+	theImages2[2] = 'images/foto9.png'
+	theImages2[3] = 'images/foto10.png'
+	theImages2[4] = 'images/foto11.png'
+	theImages2[5] = 'images/foto12.png'
+	
+	var j2 = 0
+	var p2 = theImages2.length;
+	var preBuffer2 = new Array()
+	for (i2 = 0; i2 < p2; i2++){
+	   preBuffer2[i2] = new Image()
+	   preBuffer2[i2].src = theImages2[i2]
+	}
+	var whichImage2 = Math.round(Math.random()*(p2-1));
+	function showImage2(){
+	document.write('<img src="'+theImages2[whichImage2]+'" alt="" width="250" height="230" />');
+	}
+	</script>
+
+	<script languaje="JavaScript">	
+	var theImages3 = new Array()
+	
+	theImages3[0] = 'images/foto13.png'
+	theImages3[1] = 'images/foto14.png'
+	theImages3[2] = 'images/foto15.png'
+	theImages3[3] = 'images/foto16.png'
+	theImages3[4] = 'images/foto17.png'
+	theImages3[5] = 'images/foto18.png'
+	
+	var j3 = 0
+	var p3 = theImages3.length;
+	var preBuffer3 = new Array()
+	for (i3 = 0; i3 < p3; i3++){
+	   preBuffer3[i3] = new Image()
+	   preBuffer3[i3].src = theImages3[i3]
+	}
+	var whichImage3 = Math.round(Math.random()*(p3-1));
+	function showImage3(){
+	document.write('<img src="'+theImages3[whichImage3]+'" alt="" width="250" height="230" />');
+	}
+	</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<title>haldo:: sitio web personal</title>
+<link href="haldo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<a href="index.html"><h1>haldo spontón</h1></a>
+	</div>
+	<div id="menu">
+		<ul> 
+			<li><a href="index_es.html">inicio</a></li>
+			<li><a href="bio_es.html">biografía</a></li>
+			<li><a href="docencia_es.html">docencia</a></li>
+			<li><a href="investigacion_es.html">investigación</a></li>
+			<li><a href="publicaciones_es.html">publicaciones</a></li>
+			<li><a href="personal_es.html">personal</a></li>
+		</ul>
+	</div>
+	<div id="content">

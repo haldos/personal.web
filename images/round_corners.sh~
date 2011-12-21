@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo
+echo "Redondeando esquinas de las imágenes:::"
+echo
+
+
