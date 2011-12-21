@@ -97,6 +97,10 @@ a:hover {
 	margin: 5px 10px;
 }
 
+#content li {
+	margin: 8px 0;
+}
+
 #pictures {
 	width: 780px;
 	height: 250px;
