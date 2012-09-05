@@ -7,7 +7,8 @@ body {
 	font-family: sans-serif;
 	font-size: 11px;
 	color: #777777;
-	text-align: center;	
+	text-align: center;
+	background-color:#F6F6F6;	
 	/* background: #FFFFFF url(images/background.png) repeat; */
 }
 
@@ -23,9 +24,9 @@ a:hover {
 #container {
 	width: 800px;
 	height: 680px;
-	background-color:#EEEEEE;
-    margin: 10px auto;
-    text-align: left;
+	background-color:#F6F6F6;
+    	margin: 10px auto;
+    	text-align: left;
 	/* border: 1px solid #000000; */
 }
 
